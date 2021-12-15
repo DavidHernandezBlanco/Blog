@@ -124,6 +124,11 @@ header {
     padding: 0.5%;
 }
 
+footer {
+    background-color: aqua;
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     /*reglas*/
     /* column-3 pasará de tener 33.33% a 100% */
