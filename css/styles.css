@@ -63,7 +63,7 @@ body {
 .column-4 {
     width: 25%;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
 .column-5 {
@@ -121,12 +121,21 @@ header {
 }
 
 .padding-s {
-    padding: 0.5%;
+    padding: 0.7%;
+}
+
+article {
+    background-color: rgb(277, 277, 227);
+}
+
+#prefooter {
+    background-color: #495057;
 }
 
 footer {
-    background-color: aqua;
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
