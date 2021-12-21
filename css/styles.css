@@ -130,6 +130,11 @@ article {
 
 #prefooter {
     background-color: #495057;
+    font-size: 14px;
+}
+
+#prefooter p {
+    font-size: 13px;
 }
 
 footer {
