@@ -66,6 +66,18 @@ body {
     text-align: left;
 }
 
+.column-nav {
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+
 .column-5 {
     width: 20%;
     float: left;
@@ -121,7 +133,11 @@ header {
 }
 
 .padding-s {
-    padding: 0.7%;
+    padding: 3%;
+}
+
+.padding-m {
+    padding: 6%;
 }
 
 article {
@@ -148,6 +164,10 @@ a {
     color: black;
 }
 
+.back-white {
+    background-color: white;
+}
+
 @media only screen and (max-width: 600px) {
     /*reglas*/
     /* column-3 pasará de tener 33.33% a 100% */
@@ -158,7 +178,8 @@ a {
     .column-4 {
         width: 50%;
     }
-    #caja-10 {
+    .column-nav,
+    .column-75 {
         width: 100%;
     }
 }
